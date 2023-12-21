@@ -31,17 +31,8 @@ To build the movie app, follow these steps:
    flutter pub get
    ```
 
-4. API Configuration: Obtain an API key from a movie database API provider (e.g., The Movie Database, IMDb). Create a file named `api_config.dart` in the `lib` directory and add the following code:
 
-   ````dart
-   class ApiConfig {
-     static const String apiKey = 'YOUR_API_KEY';
-   }
-   ```
-
-   Replace `YOUR_API_KEY` with your actual API key.
-
-5. Build the app: Use the Flutter command-line tool to build the app for your desired platform (Android, iOS, or web):
+4. Build the app: Use the Flutter command-line tool to build the app for your desired platform (Android, iOS, or web):
 
    For Android:
    ````shell
